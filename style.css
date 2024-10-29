@@ -13,6 +13,8 @@
   position: relative;
   width: 100%;
   overflow: hidden;
+  background-color: #eceef6;
+  z-index: 0;
 }
 
 #assignment::before {
@@ -22,22 +24,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(43, 0, 128);
-  clip-path: polygon(0 0, 100% 0, 0 100%);
+  background-color: #2a1768;
+  clip-path: polygon(0 0, 95% 0, 0 110%); 
   z-index: -1;
 }
-
-#assignment::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(236, 236, 236);
-  clip-path: polygon(0 100%, 100% 0, 100% 100%);
-  z-index: -1;
-}
+ 
 
 .service-box {
   height: 320px; 
@@ -47,7 +38,7 @@
 .service-img {
   height: 90px;
   width: 90px;
-  border: 4px solid rgb(43, 0, 128);
+  border: 4px solid #2a1768;
   top: -10%;
    
 }
